@@ -1,0 +1,79 @@
+:root {
+  --primary-color: #1e9eff;
+  --background-color: #c9e8ff;
+  --link-color: #120d5e;
+  --transition-speed: 0.2s;
+}
+
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.container {
+  font-family: "Arimo", sans-serif;
+}
+
+h1 {
+  font-size: 70px !important;
+}
+
+h2 {
+  font-size: 40px !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.btn {
+  transition: background-color var(--transition-speed);
+}
+
+.btn-light:hover {
+  background-color: transparent;
+}
+
+.border-primary {
+  border-color: var(--primary-color);
+}
+
+.shadow-custom {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  background-color: transparent;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(5px);
+  transition: background-color var(--transition-speed);
+}
+
+.paragraph {
+  font-size: 16px;
+  display: block;
+  padding: 10px;
+  line-height: 1.8;
+  border-radius: 20px;
+}
+
+.row img {
+  background-color: transparent;
+}
+
+h3 a,
+span a {
+  color: var(--link-color);
+}
